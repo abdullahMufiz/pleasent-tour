@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<nav class="navbar navbar-fixed-top">
+<ul class="nav navbar-nav">
+      <a href="../index.html"> <button type="button" class="btn">Home</button></a>
+<a href="tour.html" button type="button" class="btn btn-default">Tours</a>
+<a href="hotel.html" button type="button" class="btn btn-primary">Hotels</a>
+<a href="#c2"button type="button" class="btn btn-warning">Contact Us</a>
+<a href="#c1"button type="About Us" class="btn btn-success">About Us </a>
+<span class="dropdown">
+<a role="button" class="btn btn-info" class="dropdown-toggle" data-toggle="dropdown" href="#">Menu <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Location</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Booking form</a></li>
+              <li><a href="webpages/log.html">Registration form</a></li>  
+  
+     </ul>
+
+</span>
+
+</ul>
+</nav>
+
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:#4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:blue ;
+}
+
+div {
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+
+<center><h2>Registration Form</h2></center>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+<label for="address">Address</label>
+    <input type="text" id="address" name="Address" placeholder="Your Address ..">
+
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="Pakistan">Pakistan</option>
+      <option value="Europ">Europ</option>
+      <option value="usa">USA</option>
+    </select>
+
+<h2>TOTAL AMOUNT OF PAYMENT</h2>
+
+<label for="Room Rate Per Night">Room Rate Per Night</label>
+    <input type="text" id="Room Rate Per Night" name="Room Rate Per Night" placeholder="Room Rate Per Night ..">
+
+<label for="One Night Amount">One Night Amount</label>
+    <input type="text" id="One Night Amount" name="One Night Amount" placeholder="One Night Amount..">
+
+<label for="Total Amount">Total Amount</label>
+    <select id="Total Amount" name="Total Amount">
+      <option value="5,000">5,000</option>
+      <option value="6,000">6,000</option>
+      <option value="4,000">4,000</option>
+    </select>
+
+
+<h2>CREDIT CARD INFORMATION</h2>
+
+<label for="Card Holder">Card Holder</label>
+    <input type="text" id="Card Holder" name="Card Holder" placeholder="Card Holder..">
+
+<label for="Card Number">Card Number</label>
+    <input type="text" id="Card Number" name="Card Number" placeholder="Card Number..">
+
+<label for="Expiry Date(MONTH/YEAR):">Expiry Date(MONTH/YEAR):</label>
+    <input type="text" id="Expiry Date(MONTH/YEAR):" name="Expiry Date(MONTH/YEAR):" placeholder="Expiry Date(MONTH/YEAR):..">
+
+<label for="Signature">Signature</label>
+    <input type="text" id="Signature" name="Signature" placeholder="Signature..">
+
+
+
+  
+    <input type="submit" value="Submit">
+  </form>
+<div>
+</body>
+</html>
